@@ -162,6 +162,53 @@ header {
 }
 
 .icon-1, .icon-2{
-    width: 100%;
+    width: 50px;
     height: 50px;
+}
+
+
+
+
+.title-videoLibrary{
+    width: 30rem;
+    text-align: center;
+}
+
+.title-videoLibrary > h1{
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    color: #26c6c1;
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.1rem;
+    -webkit-text-stroke-color: #000000;
+}
+
+.video-title > h4{
+    margin: 0;
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    font-style: italic;
+}
+
+.video-title > h6{
+    margin: 0;
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.description-p {
+    margin: 0;
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.grid-config{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-config > div{
+    width: 25rem;
 }
