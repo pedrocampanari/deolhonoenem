@@ -174,12 +174,16 @@ header {
     text-align: center;
 }
 
-.title-videoLibrary > h1{
+.title-videoLibrary > h1, .title-videoLibrary-2 > h1{
     font-family: "Balsamiq Sans", Arial, sans-serif;
     color: #26c6c1;
     font-weight: 900;
     -webkit-text-stroke-width: 0.1rem;
     -webkit-text-stroke-color: #000000;
+}
+
+.title-videoLibrary-2 > h1{
+    font-style: italic;
 }
 
 .video-title > h4{
