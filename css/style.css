@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #f9feff;
-    border-bottom: 1px solid #26C6C1;
+    border-bottom: 2px solid #26C6C1;
     position: static;
 
 }
@@ -35,6 +35,12 @@ header {
     font-size: 20px;
 }
 
+.nav-row-col-a:hover {
+    color: #26C6C1;
+    font-size: 22px;
+}
+
+
 .background-main {
     background-image: url("../assets/img/photoLibrary/background.jpg");
     background-repeat: no-repeat;
@@ -49,7 +55,7 @@ header {
 
 .eternos {
     margin-top: -10rem;
-    margin-bottom:10rem;
+    margin-bottom:5rem;
     color: black;
     padding: 5px;
     width: auto;
@@ -63,4 +69,99 @@ header {
     font-family: "Bree Serif", Arial, serif;
     font-weight: bolder;
 
+}
+
+.sect-whoAreWe-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000739;
+    padding: 30px 30px 30px 5.79rem;
+}
+
+.sect-whoAreWe-div-div {
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #f9feff;
+    text-shadow: 1px 1px 1px #0097b2, -1px 1px 1px #0097b2,
+     1px -1px 1px #0097b2, -1px -1px 1px #0097b2;
+    font-size: 40px;
+}
+
+
+.p-sobre, .p-sobre-2 {
+    font-family: "Bree Serif", sans-serif;
+    background: #26c6c1;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    max-width: 1400px;
+    margin: 15px auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-min, .img-turm{
+    width: 27rem; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 5px; 
+}
+
+.button-container{
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.button-videos {
+    width: 100%;
+    padding: 20px;
+    background-color: #26c6c1;
+    color: #f8f8f8;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.button-videos:hover{
+    background-color: #1d8885;
+}
+
+.hashtag {
+    font-family: "Bree Serif", sans-serif;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #005f5c, -1px 1px 1px #005f5c,
+    1px -1px 1px #005f5c, -1px -1px 1px #005f5c;  
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000739;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    gap: 40px;
+}
+
+.icon-1, .icon-2{
+    width: 100%;
+    height: 50px;
 }
