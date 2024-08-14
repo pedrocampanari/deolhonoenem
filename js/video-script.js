@@ -3,7 +3,7 @@ const src = params.get('src');
 const title = params.get('title');
 
 const VideoTitle = document.getElementById('title').innerText += " " + title;
-const VideoSource = document.getElementById('videoTag').setAttribute("src", `../assets/videoLibrary/${src}`);
+const VideoSource = document.getElementById('videoTag').setAttribute("src", `https://www.youtube.com/embed/${src}`);
 
 console.log(src, title);
 
