@@ -217,4 +217,15 @@ header {
     width: 20rem;
 }
 
+#mentalMap {
+    font-weight: 900;
+    color: #000000;
+    font-style: italic;
+}
+
+#mentalMap:hover {
+    color: #0097b2;
+    transition: 0.1s;
+}
+
 
