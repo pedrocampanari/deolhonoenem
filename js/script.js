@@ -6,10 +6,10 @@ btnRedirect.addEventListener("click", ()=>{
 
 let newPhoto = ()=>{
     let carousel = document.getElementById('carousel');
-    for(let i = 1; i <= 2; i++){
+    for(let i = 1; i <= 42; i++){
         carousel.innerHTML += `
         <div class="carousel-item">
-            <img src="assets/img/photoLibrary/foto${i}.jpeg" class="d-block w-100" alt="...">
+            <img src="assets/img/carousel/foto${i}.jpg" class="d-block w-100" alt="...">
         </div>
         `
     }
