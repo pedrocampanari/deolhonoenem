@@ -9,7 +9,7 @@ let newPhoto = ()=>{
     for(let i = 1; i <= 42; i++){
         carousel.innerHTML += `
         <div class="carousel-item">
-            <img src="assets/img/carousel/foto${i}.jpg" class="d-block w-100" alt="...">
+            <img width="1100vh" src="assets/img/carousel/foto${i}.jpg" class="d-block" alt="...">
         </div>
         `
     }

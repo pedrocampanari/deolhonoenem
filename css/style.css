@@ -192,8 +192,12 @@ header {
     font-style: italic;
 }
 
+.video-title {
+    margin: auto 0px 0px 0px;
+}
+
 .video-title > h6{
-    margin: 0;
+   
     font-family: "Balsamiq Sans", Arial, sans-serif;
     font-size: 15px;
 }
